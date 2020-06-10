@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgb(226, 176, 50) !important;
+    width: 100% !important;
+    height: 15vh;
+font-size: large !important;
+
+}
+.nav-link {
+    font-size: 15px;
+    font-weight: bold !important;
+    text-transform: uppercase;
+   color:black !important;
+   justify-content: space-around;
+    
+}
+
+.nav-link i{
+    color: black ;
+    font-size: 35px;
+   
+}
+.carousel img{
+    width: 80%;
+    height: 70vh;
+}
+.carousel-item h5{
+    font-family: cambria;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+.carousel-item p{
+    font-family: cambria;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+.carousel-caption{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.541)); 
+    margin: 50px 0;
+    
+}
+
+
+
+
+
+.fa-truck, .fa-phone , .fa-thumbs-o-up
+{
+    font-size: 35px !important;
+    margin-right: 10px;
+}
+.main-card .card-1, .card-2 ,.card-3
+{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: fff;
+    box-shadow: 2px 4px 5px color grey;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 10px;
+}
+.main-card {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.new-arrivals h1{
+    font: bold;
+    text-transform: uppercase;
+    font-family: cambria;
+    text-align: center;
+}
+.new-arrivals
+{
+    padding: 30px 0;
+}
+.new-arrivals .card {
+   
+}
+.new-arrivals .card .card-img-top img{
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.new-arrivals .card-body .card-title{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+.new-arrivals .card-body  .card-text{
+    font-weight: 500;
+    font-size: 15px;
+    color: black !important;
+    text-align: center;
+}
+.new-arrivals .card-body a .btn{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+   text-align: center;
+   margin: 10px !important;
+}
+.new-arrivals .card-body a{
+    margin: 0 20px;
+ }
+
+
+
+
+
+.Our-Bakery-items h1{
+    font: bold;
+    text-transform: uppercase;
+    font-family: cambria;
+    text-align: center;
+}
+.Our-Bakery-items
+{
+    padding: 30px 0;
+}
+.Our-Bakery-items .card {
+    width: 100%;
+    height: auto;
+}
+.Our-Bakery-items .card .card-img-top img{
+    width: 100% !important;
+    height: 100px !important;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.Our-Bakery-items .card-body{
+    width: 100%;
+    height: 30vh;
+}
+.Our-Bakery-items .card-body .card-title{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+.Our-Bakery-items .card-body  .card-text{
+    font-weight: 500;
+    font-size: 15px;
+    color: black !important;
+    text-align: center;
+}
+
+.Our-Bakery-items .card-body a{
+   margin: 0 20px;
+}
+.Our-Bakery-items .card-body a .btn{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+   text-align: center;
+   margin: 10px !important;
+}
+
+
+
+.Footer-Company-Detail{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/bg-footer.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+}
+.company-details{
+    width: 100% !important;
+    padding-top: 20px;
+}
+.company-details h6{
+color: white;
+font-weight: 100 !important;
+font-size: 25px;
+padding: 30 0;
+text-align: center;
+margin: 20 0;
+}
+.company-details ul{
+   text-align: center;
+    list-style: none;
+    margin: 20 0;
+    padding: 20px 0;
+}
+.company-details ul a{
+    color: white;
+}
+.company-details .iconlist{
+    padding: 0 10px !important;
+    margin-left: 100px !important;
+}
+
+.company-details .iconlist li{
+    list-style:none ;
+    float: left !important;
+    padding-left: 20px !important;
+    
+
+}
+
+.company-details .iconlist i{
+    color: white !important;
+    padding: 12px;
+    background-color: rgba(66, 65, 65, 0.986) !important;
+}
+
+.company-details .iconlist i:hover{
+    color: white !important;
+    padding: 12px;
+    background-color: rgb(255, 208, 0) !important;
+}
+
+.address{
+    text-align: center;
+
+}
+
+
+.address h6{
+    
+    color: white;
+font-weight: 100 !important;
+font-size: 25px;
+padding: 20px 0;
+
+}
+.address li p{
+    list-style: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 15px;
+
+    text-align: center;
+}
+.address li i{
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 18px;
+    border-radius: 75px;
+     background-color:rgba(66, 65, 65, 0.877) ;
+}
+
+.address button{
+    padding: 20px 30px ;
+    color: white;
+    background-color: rgb(16, 16, 138);
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 20px;
+}
+
+
+.footer-classic-panel {
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: grey;
+    padding: 30px;
+    
+  
+    
+}

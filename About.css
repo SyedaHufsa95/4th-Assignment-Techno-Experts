@@ -1,0 +1,57 @@
+
+.about-us{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url('images/bg1.jpg');
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.about-us h2{
+    padding: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family:cambria ;
+    }
+
+.about-us p{
+        color: white;
+        font-weight: 200;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .my-about{
+        padding: 30px;
+        background-color: rgba(128, 128, 128, 0.534);
+    }
+
+.my-about h2{
+    text-align: center;
+font-size: 30px;
+
+font-weight:bold ;
+padding: 20px;
+
+color: black !important;
+}
+.my-about p{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    
+}
+.card-1 .icon{
+    text-align: center;
+}
+.card-1 .icon i{
+    text-align:center ;
+    font-size: 50px;
+
+}
+ 
+.company-details .iconlist{
+    padding: 0 10px;
+    margin-left: 0 !important;
+}
